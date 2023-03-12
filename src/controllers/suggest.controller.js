@@ -1,9 +1,4 @@
-import { Request, Response } from 'express';
 import Vibrant from 'node-vibrant';
-import multer from 'multer';
-import http from 'http';
-import path from 'path';
-import fs from 'fs';
 
 const postSuggestion = async (req, res) => {
     const vibrant = new Vibrant(req.file.path);

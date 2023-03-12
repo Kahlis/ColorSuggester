@@ -6,7 +6,7 @@ const suggestRoutes = Router();
 
 
 const upload = multer({
-    dest: "/temp"
+    dest: 'public/uploads/'
     // you might also want to set some limits: https://github.com/expressjs/multer#limits
 });
 

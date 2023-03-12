@@ -2,12 +2,13 @@
   "name": "ColorSuggester",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Kahlis/ColorSuggester.git",
+  "repository": "https://github.com/Kahlis/ProminentAPI.git",
   "license": "MIT",
   "dependencies": {
     "express": "^4.18.2",
     "fs": "^0.0.1-security",
     "global": "^4.4.0",
+    "mkdirp": "^2.1.5",
     "multer": "^1.4.5-lts.1",
     "node-vibrant": "^3.2.1-alpha.1"
   },
